@@ -1,0 +1,27 @@
+{
+  "name": "foundation-sites-template",
+  "version": "1.0.0",
+  "authors": [
+    "ZURB <foundation@zurb.com>"
+  ],
+  "description": "Basic template for a new Foundation for Sites project.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://foundation.zurb.com",
+  "dependencies": {
+    "foundation-sites": "~6.4.0",
+    "motion-ui": "~1.2.3",
+    "parallax.js": "^1.4.2",
+    "imgLiquid": "^0.9.944",
+    "font-awesome": "fontawesome#^4.7.0",
+    "slick-carousel": "^1.7.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
