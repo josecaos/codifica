@@ -59,14 +59,14 @@
 @import "../style_utils/scss/style_utils";
 //
 
-* { outline: 1px rgba(100,100,100,0.5)}
+// * { outline: 1px solid rgba(100,100,100,0.5)}
 
 body {
 
 }
 
 // Default general
-div { height: 100%;}
+div, section, ul { height: 100%;}
 
 a {
   color:lime;
@@ -74,6 +74,13 @@ a {
 a:hover {
   color:orange;
 }
+
+// header /footer
+.h-header {height: 70px;}
+.h-footer {height: 40px;}
+.p-top {padding-top: 70px;}
+.p-bottom {padding-bottom: 50px}
+
 
 
 //

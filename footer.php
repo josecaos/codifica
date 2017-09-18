@@ -1,9 +1,9 @@
 
 </main>
 
-<footer id="footer" class="columns h-10-v fixed bottom left color-blanco-bg shadow-up z1k1">
+<footer id="footer" class="grid-x cell h-footer fixed bottom left color-blanco-bg shadow-up z1k1">
 
-  <div id="social" class="columns small-6 p-0">
+  <div id="social" class="grid-x cell small-6 align-middle">
 
     <?php
 
@@ -11,32 +11,29 @@
     $iconos_size = count($iconos);
 
 
-    for ($i=0; $i < $iconos_size; $i++):
+    for ($i=0; $i < 4; $i++):
 
       ?>
 
-      <div class="columns v-center shareW ">
 
-        <div class="columns p-0 h-a text-center">
+        <div class="small-3 cell h-a">
 
-          <a class="columns p-0"href="#">
+          <a class="grid-x cell text-center" href="#">
 
-            <i class="fa fa-<?php echo $iconos[$i];?> text-shadow"></i>
+            <i class="cell fa fa-<?php echo $iconos[$i];?> text-shadow"></i>
 
           </a>
 
         </div>
-
-      </div>
 
     <?php endfor; ?>
 
   </div>
 
 
-  <div class="copyright columns small-6 text-right v-center">
+  <div class="copyright grid-x small-6 align-middle text-right">
 
-    <div class="columns p-0 h-a">
+    <div class="cell p-0 h-a">
 
       <i class="fa fa-copyright font-xs font-md-s text-shadow"> Copyright || <?php echo date("Y"); ?></i>
 

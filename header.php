@@ -9,51 +9,53 @@
 </head>
 <body>
 
-    <header id="header" class="columns h-10 fixed top left color-blanco-bg shadow z1k1">
+  <header id="header" class="grid-x cell grid-padding-x h-header fixed top left color-blanco-bg shadow z1k1">
 
-      <div id="header-logo" class="columns small-3 imgLiquid imgLiquidNoFillLeft" >
-        <img src="http://fakeimg.pl/180x95/?text=Logo" alt="Codifica Dev" />
+    <div class="grid-x small-3 cell">
+      <div id="header-logo" class="cell imgLiquid imgLiquidNoFillLeft" >
+        <img src="http://fakeimg.pl/180x95/?text=Codifica" alt="Codifica Dev" />
       </div>
+    </div>
 
-      <!-- escritorio -->
-      <nav id="menu-escritorio" class="columns small-9 show-for-large">
+    <!-- escritorio -->
+    <nav id="menu-escritorio" class="grid-x small-9 cell show-for-large">
 
-        <?php include_once "secciones/menu.php" ?>
+      <?php include_once "secciones/menu.php" ?>
 
-      </nav>
-      <!--  -->
+    </nav>
+    <!--  -->
 
-      <!--parte movil -->
-      <div id="header-movil" class="columns small-9 hide-for-large">
+    <!--parte movil -->
+    <div id="header-movil" class="grid-x small-9 cell hide-for-large">
 
-        <div class="columns small-9"></div>
+      <div class="columns small-9"></div>
 
-        <div class="columns small-3 p-0 v-center">
+      <div class="columns small-3 p-0 v-center">
 
-          <div class="columns p-0 h-a text-right">
+        <div class="columns p-0 h-a text-right">
 
-            <a id="boton-menu-movil" class="columns p-0 " href="#">
+          <a id="boton-menu-movil" class="columns p-0 " href="#">
 
-              <i class="fa fa-bars font-l"></i>
+            <i class="fa fa-bars font-l"></i>
 
-            </a>
-
-          </div>
+          </a>
 
         </div>
 
       </div>
-      <!--  -->
-
-    </header>
-    <div id="menu-movil" class="columns h-100-v fixed p-top p-bottom color-primary-0-bg z1k hide-for-large">
-
-      <?php echo "este es el menu movil"; ?>
 
     </div>
+    <!--  -->
+
+  </header>
+  <div id="menu-movil" class="grid-x h-100-v fixed p-top p-bottom color-primary-0-bg z1k hide-for-large">
+
+    <?php echo "este es el menu movil"; ?>
+
+  </div>
 
 
 
 
 
-    <main id="main" class="columns">
+  <main id="main" class="columns p-top p-bottom h-a">

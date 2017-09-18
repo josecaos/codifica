@@ -1,18 +1,14 @@
-<ul id="menu-lista">
-
+<ul id="menu-lista" class="grid-x cell">
+<li class="grid-x medium-6 cell align-middle h-100"></li>
 <?php
-for ($i=0; $i < 5; $i++):
+for ($i=0; $i < 3; $i++):
   ?>
 
-  <li class="columns p-0 h-100 shareW">
+  <li class="grid-x medium-2 cell align-middle h-100">
 
-    <a href="" class="columns p-0 h-100 text-center v-center">
+    <a href="" class="cell h-a text-right">
 
-      <div class="columns h-a p-0 text-shadow">
-
-        <?php echo "Elemento " . $i; ?>
-
-      </div>
+        <?php echo "Menú " . $i; ?>
 
     </a>
 

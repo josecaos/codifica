@@ -1,28 +1,19 @@
-$(document).foundation()
-var u = new Utils()
 $(document).ready(function() {
+  //
+  $(document).foundation()
 
-setup_resize()
+  setup()
 
-menu_movil()
-
-img_liquid()
+  img_liquid()
 
 })
 //fin ready
 // funciones
-function setup_resize() {
+function setup() {
 
-  u.addWindowResizeFunction( u.verticalCenter )
-  u.addWindowResizeFunction( u.shareW )
-  u.addWindowResizeFunction( menu_movil )
-  // u.addWindowResizeFunction( u.shareH )
 
-  setTimeout(function(){
-
-    $(window).trigger('resize')
-
-  },100)
+  menu_movil()
+  img_liquid()
 
 }
 
