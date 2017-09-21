@@ -31,11 +31,11 @@
   </div>
 
 
-  <div class="copyright grid-x small-6 align-middle text-right">
+  <div class="copyright grid-x small-6 grid-padding-x align-middle text-right">
 
     <div class="cell p-0 h-a">
 
-      <i class="fa fa-copyright font-xs font-md-s text-shadow"> Copyright || <?php echo date("Y"); ?></i>
+      <i class="fa fa-copyright font-xs font-md-s text-shadow"> Codifica Dev. || <?php echo date("Y"); ?></i>
 
     </div>
 

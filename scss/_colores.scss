@@ -1,0 +1,85 @@
+// Paleta de color con SASS
+
+// $blanco: #FFF;
+$blanco: white;
+$negro: black;
+
+$color-primario-0: #393F4B;
+$color-primario-1: #717785;
+
+$color-secundario-0: #95AB00;
+$color-secundario-1: #DFF069;
+
+$color-terciario-0: #BF5399;
+$color-terciario-1: #Aa3143;
+
+$color-complementario: #FFCA00;
+
+$color-acento: #870058;
+
+// array de colores
+$lista-colores: (
+
+blanco   $blanco,
+negro   $negro,
+
+primario-0 $color-primario-0,
+primario-1 $color-primario-1,
+
+secundario-0 $color-secundario-0,
+secundario-1 $color-secundario-1,
+
+terciario-0 $color-terciario-0,
+terciario-1 $color-terciario-1,
+
+complementario $color-complementario,
+
+acento $color-acento
+
+);
+// Crea las clases
+@each $value in $lista-colores {
+
+  .color-#{nth($value, 1)} {
+    & {
+      color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-bg {
+    & {
+      background-color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-bd {
+    & {
+      border: 1px solid white;
+      border-color: nth($value, 2) !important;
+    }
+  }
+
+  .color-#{nth($value, 1)}-hover:hover {
+    & {
+      color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-hover-bg:hover {
+    & {
+      background-color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-hover-bd:hover {
+    & {
+      border: 1px solid white;
+      border-color: nth($value, 2) !important;
+    }
+  }
+  .cortina-#{nth($value, 1)} {
+    & {
+      background-color: nth($value, 2) !important;
+      opacity: 0.35;
+
+    }
+  }
+
+
+}

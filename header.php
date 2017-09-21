@@ -11,48 +11,45 @@
 
   <header id="header" class="grid-x cell grid-padding-x h-header fixed top left color-blanco-bg shadow z1k1">
 
-    <div class="grid-x small-3 cell">
+    <div class="grid-x small-4 medium-3 cell">
       <div id="header-logo" class="cell imgLiquid imgLiquidNoFillLeft" >
         <img src="http://fakeimg.pl/180x95/?text=Codifica" alt="Codifica Dev" />
       </div>
     </div>
 
     <!-- escritorio -->
-    <nav id="menu-escritorio" class="grid-x small-9 cell show-for-large">
+    <nav id="menu-escritorio" class="grid-x medium-9 cell show-for-large">
 
-      <?php include_once "secciones/menu.php" ?>
+      <?php include_once "secciones/general/menu.php" ?>
 
     </nav>
     <!--  -->
 
     <!--parte movil -->
-    <div id="header-movil" class="grid-x small-9 cell hide-for-large">
+    <div id="header-movil" class="grid-x small-8 cell hide-for-large">
 
-      <div class="columns small-9"></div>
+      <div class="small-9 cell"></div>
 
-      <div class="columns small-3 p-0 v-center">
+      <div class="grid-x small-3 cell align-middle">
 
-        <div class="columns p-0 h-a text-right">
+          <a id="boton-menu-movil" class="cell text-right" href="#">
 
-          <a id="boton-menu-movil" class="columns p-0 " href="#">
-
-            <i class="fa fa-bars font-l"></i>
+            <i class="fa fa-bars font-xl"></i>
 
           </a>
 
-        </div>
 
       </div>
 
     </div>
-    <!--  -->
 
   </header>
-  <div id="menu-movil" class="grid-x h-100-v fixed p-top p-bottom color-primary-0-bg z1k hide-for-large">
+  <div id="menu-movil" class="grid-x cell h-100-v fixed p-top p-bottom color-primary-0-bg z1k hide-for-large">
 
-    <?php echo "este es el menu movil"; ?>
+    <?php include_once "secciones/general/menu-movil.php"; ?>
 
   </div>
+  <!--  -->
 
 
 
