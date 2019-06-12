@@ -1,1 +1,28 @@
+/* Vars  */
+:root {
+  --color-black: #000;
+  --color-white: #FFF;
+  --color-1: purple;
+  --color-2: pink;
+  --color-contrast: orange;
+  --color-hover: gray;
+  /*  */
+  --padding-1: 8px;
+  --padding-2: 16px;
+  --padding-3: 32px;
+}
 /*  */
+* {
+  outline: 1px solid lime;
+}
+/*  */
+body {
+  background: var(--color-2);
+}
+
+
+
+/*  */
+.no-padding {
+  padding: 0px;
+}

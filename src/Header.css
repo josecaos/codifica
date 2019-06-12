@@ -1,0 +1,11 @@
+header {
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 3px var(--color-black);
+  min-height: 50px;
+}
+.navbar-brand .App-logo {
+  height: 60px;
+}
+.nav-item {
+  padding: var(--padding-1) var(--padding-2);
+}
