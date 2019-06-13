@@ -1,6 +1,9 @@
 #heroscreen {
   min-height: 100vh;
 }
-#heroscreen-wrap{
+#heroscreen-wrap {
   min-height: 100vh;
+}
+#hero_title {
+  margin-bottom: var(--padding-3);
 }

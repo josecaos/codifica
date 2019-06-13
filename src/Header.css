@@ -1,7 +1,12 @@
 header {
+  position: fixed !important;
   background-color: var(--color-white);
   box-shadow: 1px 1px 3px var(--color-black);
   min-height: 50px;
+  top: 0;
+  left:0;
+  width: 100%;
+  z-index: 10000;
 }
 .navbar-brand .App-logo {
   height: 60px;

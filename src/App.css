@@ -1,11 +1,11 @@
-/* Vars  */
+/* Theme vars  */
 :root {
   --color-black: #000;
   --color-white: #FFF;
-  --color-1: purple;
-  --color-2: pink;
+  --color-1: #020011;
+  --color-2: #000511;
   --color-contrast: gray;
-  --color-hover: orange;
+  --color-hover: #0C063C;
   /*  */
   --padding-1: 8px;
   --padding-2: 16px;
@@ -14,13 +14,13 @@
   --font-title: "Assistant", sans-serif;
   --font-content: "Kanit", sans-serif;
 }
-/* wireframe */
-* {
-  outline: 1px solid lime;
-}
 /* Fonts */
 @import "https://fonts.googleapis.com/css?family=Assistant:200|Kanit:100";
-/*  */
+/* Wireframe */
+* {
+  outline: 1px solid black;
+}
+/* General */
 body {
   background-color: var(--color-2);
   font-family: var(--font-content);
@@ -39,6 +39,9 @@ h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-title);
 }
 
+#App {
+  /* padding-top: 80px; */
+}
 /* General resets */
 .ha {
   height: auto;
