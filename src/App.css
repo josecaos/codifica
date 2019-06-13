@@ -19,10 +19,19 @@
 body {
   background: var(--color-2);
 }
+div {
+  height: 100%;
+}
 
 
 
 /*  */
+.ha {
+  height: auto;
+}
 .no-padding {
   padding: 0px;
+}
+.no-margin {
+  margin: 0;
 }

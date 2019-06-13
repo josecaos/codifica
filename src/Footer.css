@@ -1,0 +1,9 @@
+footer {
+  /* position: fixed; */
+  display: block;
+  background-color: var(--color-white);
+  height: 50px;
+  box-shadow: -1px -1px 3px var(--color-black);
+  left: 0;
+  bottom: 0;
+}

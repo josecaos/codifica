@@ -9,14 +9,14 @@ export class Header extends React.Component {
   render() {
     return (
     <header className="App-header navbar navbar-expand-lg navbar-light">
-    <button class="navbar-toggler"
+    <button className="navbar-toggler"
     type="button"
     data-toggle="collapse"
     data-target="#navbar-mobile-trigger"
     aria-controls="navbarSupportedContent"
     aria-expanded="false"
     aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span className="navbar-toggler-icon"></span>
     </button>
       <a
       className="App-link navbar-brand"
