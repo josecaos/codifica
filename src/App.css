@@ -20,19 +20,19 @@
 @import "https://fonts.googleapis.com/css?family=Assistant:200|Kanit:100";
 /* Wireframe */
 * {
-  outline: 1px solid lime;
+  /* outline: 1px solid lime; */
 }
 /* General */
 body {
   background-color: var(--color-2);
-  color: var(--color-clear);
+  color: var(--color-white);
   font-family: var(--font-content);
 }
 div {
   height: 100%;
 }
 a {
-  color: var(--color-clear);
+  color: var(--color-white);
 }
 a:hover {
   color: var(--color-hover);

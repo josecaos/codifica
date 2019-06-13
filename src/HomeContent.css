@@ -6,4 +6,13 @@
 }
 #hero_title {
   margin-bottom: var(--padding-3);
+  font-size: 4rem
+}
+#hero_title small {
+  margin-bottom: var(--padding-3);
+  font-size: 1.5rem
+}
+#slogan {
+  margin-bottom: var(--padding-3);
+  font-size: 2rem
 }

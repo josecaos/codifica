@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-import logo from './assets/img/codifica.logo.png';
+import logo from './assets/img/codifica.logo.dark.png';
 import './Header.css';
 
 const home_url = "localhost:3000"
@@ -8,7 +8,7 @@ const home_url = "localhost:3000"
 export class Header extends React.Component {
   render() {
     return (
-    <header className="App-header navbar navbar-expand-lg navbar-light">
+    <header className="App-header navbar navbar-expand-lg navbar-dark">
     <button className="navbar-toggler"
     type="button"
     data-toggle="collapse"

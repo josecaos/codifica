@@ -2,9 +2,9 @@ footer {
   position: fixed;
   display: block;
   padding: var(--padding-1) 0;
-  background-color: var(--color-dark);
-  min-height: 70px;
-  box-shadow: -1px -1px 3px var(--color-black);
+  background-color: var(--color-black);
+  min-height: 50px;
+  /* box-shadow: -1px -1px 1px var(--color-clear); */
   left: 0;
   bottom: 0;
   z-index: 10000;

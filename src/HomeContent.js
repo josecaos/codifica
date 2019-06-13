@@ -7,7 +7,7 @@ import './HomeContent.css';
 
 let heroTitle = "codifica"
 let heroSubTitle = ".xyz"
-let slogan = "Desarrollo en proyectos de Tecnología y Web"
+let slogan = "Desarrollo Arte Tecnología Web"
 
 export class HomeContent extends React.Component {
   render() {

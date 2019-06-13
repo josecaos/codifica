@@ -1,7 +1,7 @@
 header {
   position: fixed !important;
-  background-color: var(--color-dark);
-  box-shadow: 1px 1px 3px var(--color-black);
+  background-color: var(--color-black);
+  /* box-shadow: 1px 1px 3px var(--color-clear); */
   min-height: 50px;
   top: 0;
   left:0;
@@ -13,4 +13,7 @@ header {
 }
 .nav-item {
   padding: var(--padding-1) var(--padding-2);
+}
+.nav-item a {
+  color: var(--color-white);
 }
