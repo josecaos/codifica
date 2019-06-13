@@ -2,10 +2,12 @@
 :root {
   --color-black: #000;
   --color-white: #FFF;
-  --color-1: #020011;
-  --color-2: #000511;
-  --color-contrast: gray;
-  --color-hover: #0C063C;
+  --color-clear: #3A416B;
+  --color-dark: #0E143C;
+  --color-1: #030512;
+  --color-2: #161821;
+  --color-contrast: #050224;
+  --color-hover: #12238F;
   /*  */
   --padding-1: 8px;
   --padding-2: 16px;
@@ -18,18 +20,19 @@
 @import "https://fonts.googleapis.com/css?family=Assistant:200|Kanit:100";
 /* Wireframe */
 * {
-  outline: 1px solid black;
+  outline: 1px solid lime;
 }
 /* General */
 body {
   background-color: var(--color-2);
+  color: var(--color-clear);
   font-family: var(--font-content);
 }
 div {
   height: 100%;
 }
 a {
-  color: var(--color-contrast);
+  color: var(--color-clear);
 }
 a:hover {
   color: var(--color-hover);

@@ -1,6 +1,6 @@
 header {
   position: fixed !important;
-  background-color: var(--color-white);
+  background-color: var(--color-dark);
   box-shadow: 1px 1px 3px var(--color-black);
   min-height: 50px;
   top: 0;
