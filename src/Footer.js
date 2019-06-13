@@ -9,7 +9,7 @@ export class Footer extends React.Component {
     return (
     <footer className="container-fluid">
 
-      <div class="row">
+      <div className="row">
         <div id="copyright" className="col-12 col-md-6 ha my-auto">
           <p class="col-12 text-left no-margin">
             {copyright}

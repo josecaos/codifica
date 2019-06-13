@@ -42,22 +42,22 @@ class Menu extends React.Component {
     return (
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <a href="#">
+        <a href="https://">
           MenuItem
         </a>
       </li>
       <li className="nav-item">
-        <a href="#">
+        <a href="https://">
           MenuItem
         </a>
       </li>
       <li className="nav-item">
-        <a href="#">
+        <a href="https://">
           MenuItem
         </a>
       </li>
       <li className="nav-item">
-        <a href="#">
+        <a href="https://">
           MenuItem
         </a>
       </li>

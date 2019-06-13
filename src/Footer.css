@@ -1,9 +1,14 @@
 footer {
-  /* position: fixed; */
+  position: fixed;
   display: block;
+  padding: var(--padding-1) 0;
   background-color: var(--color-white);
-  height: 50px;
+  min-height: 70px;
   box-shadow: -1px -1px 3px var(--color-black);
   left: 0;
   bottom: 0;
+  z-index: 10000;
+}
+#copyright, #footer-bottom {  
+  padding: var(--padding-1) 0;
 }
