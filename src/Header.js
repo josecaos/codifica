@@ -6,7 +6,10 @@ import './Header.css';
 const home_url = "localhost:3000"
 
 export class Header extends React.Component {
-  render() {
+
+
+
+  render() {//metodo
     return (
     <header className="App-header navbar navbar-expand-lg navbar-dark">
     <button className="navbar-toggler"
@@ -21,7 +24,6 @@ export class Header extends React.Component {
       <a
       className="App-link navbar-brand"
       href={home_url}
-      target="_blank"
       rel="noopener noreferrer"
       >
       <img src={logo}
