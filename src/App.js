@@ -1,19 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Header} from './Header';
 import {Footer} from './Footer';
 import {HomeContent} from './HomeContent';
+import {Twitter, HashtagFind} from './Twitter';
 import './App.css';
 
-function App() {
-  return (
-    <div id="App">
+export class App extends Component {
+  render() {
+    return (
+      <section id="App">
       <Header />
 
       <HomeContent />
+      <HashtagFind tag="Mexico" />
+      <Twitter />
 
       <Footer />
-    </div>
-  );
+      </section>
+    )
+  }
 }
 
 export default App;
