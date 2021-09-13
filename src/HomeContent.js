@@ -7,26 +7,26 @@ import './HomeContent.css';
 //
 
 let heroTitle = "codifica"
-let heroSubTitle = ".xyz"
+let heroSubTitle = ".live"
 let slogan = "Desarrollo Arte Tecnología Web"
 
 export class HomeContent extends React.Component {
   render() {
     return (
       <section id="heroscreen" className="container-fluid">
-      <div id="heroscreen-wrap" className="row">
-      <div className="col-12 text-center ha my-auto">
-      <h1 id="hero_title">{heroTitle}<small>{heroSubTitle}</small></h1>
-      <h3 id="slogan">{slogan}</h3>
-      </div>
-      </div>
-      <P5Wrapper sketch={sketch} />
+        <div id="wrap">
+          <div className="col-12 text-center ha my-auto">
+            <h1 id="title">{heroTitle}<small>{heroSubTitle}</small></h1>
+            <h3 id="slogan">{slogan}</h3>
+          </div>
+        </div>
+        {/* <P5Wrapper sketch={sketch} /> */}
       </section>
     )
   }
 }
 //
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded" ,() => {
 
   var t = 1000
 
@@ -47,13 +47,14 @@ $(document).ready(function () {
     },t)
   },t)
 
+  // alert("fuck react")
+
 });
 
 function texto_init() {
 
   let titulo = $('#slogan').text()
   let a = titulo.split(" ")
-  // console.log(a)
 
   shuffle(a)
 
@@ -89,19 +90,19 @@ export default function sketch(p) {
 
   p.draw = function() {
 
-    p.background(10, 10); // fondo transparente (creates trails)
-    //for (let x = 0; x <= width; x = x + 30) {
-      //for (let y = 0; y <= height; y = y + 30) {
+    p.background(10, 10); //fondo transparente (creates trails)
+    // for (let x = 0; x <= width; x = x + 30) {
+    //   for (let y = 0; y <= height; y = y + 30) {
     //     // starting point of each circle depends on mouse position
     //    const xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
     //     const yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
     //     // and also varies based on the particle's location
     //     const angle = xAngle * (x / width) + yAngle * (y / height);
-    //
+    
     //     // each particle moves in a circle
     //     const myX = x + 20 * cos(2 * PI * t + angle);
     //     const myY = y + 20 * sin(2 * PI * t + angle);
-    //
+    
     //     p.ellipse(myX, myY, 10); // dibuja la particula
     //   }
     // }
@@ -109,5 +110,5 @@ export default function sketch(p) {
     t = t + 0.01; // update time
 
   }
-  //     p.ellipse(myX, myY, 10); // dibuja la particula
+      // p.ellipse(myX, myY, 10); // dibuja la particula
 }

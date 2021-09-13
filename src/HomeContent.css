@@ -1,14 +1,20 @@
 #heroscreen {
-  min-height: 100vh;
+  background-color: var(--color-black);
+  height: calc(100vh - 7rem);
 }
-#heroscreen-wrap {
-  min-height: 100vh;
+#wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
 }
-#hero_title {
+#title {
   margin-bottom: var(--padding-3);
   font-size: 4rem
 }
-#hero_title small {
+#title small {
   margin-bottom: var(--padding-3);
   font-size: 1.5rem
 }

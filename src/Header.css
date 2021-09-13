@@ -1,12 +1,19 @@
 header {
-  position: fixed !important;
+  position: relative;
   background-color: var(--color-black);
-  /* box-shadow: 1px 1px 3px var(--color-clear); */
-  min-height: 50px;
-  top: 0;
-  left:0;
+  height: 4rem;
   width: 100%;
-  z-index: 10000;
+}
+.contenedor {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 60rem;
+  margin: 0 auto;
+  width: 100%;
+}
+img {
+  object-fit: contain !important;
+  object-position: left;
 }
 .navbar-brand .App-logo {
   height: 60px;

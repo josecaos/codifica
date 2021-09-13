@@ -1,14 +1,15 @@
 footer {
-  position: fixed;
-  display: block;
+  position: relative;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
   padding: var(--padding-1) 0;
   background-color: var(--color-black);
-  min-height: 50px;
-  /* box-shadow: -1px -1px 1px var(--color-clear); */
-  left: 0;
-  bottom: 0;
+  height: 3rem;
+  width: 100%;
   z-index: 10000;
 }
-#copyright, #footer-bottom {
-  padding: var(--padding-1) 0;
+.copyright {
+  max-width: 60rem;
+  margin: 0 auto;
 }

@@ -10,7 +10,8 @@ export class Header extends Component {
   render() {//metodo
     return (
     <header className="App-header navbar navbar-expand-lg navbar-dark">
-      <button className="navbar-toggler"
+      <div className="contenedor">
+      {/* <button className="navbar-toggler"
       type="button"
       data-toggle="collapse"
       data-target="#navbar-mobile-trigger"
@@ -18,20 +19,23 @@ export class Header extends Component {
       aria-expanded="false"
       aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-    </button>
+    </button> */}
     <a
     className="App-link navbar-brand"
     href={home_url}
     rel="noopener noreferrer"
     >
+      <div>
     <img src={logo}
     className="App-logo"
     alt="logo"
     />
+    </div>
   </a>
-  <nav id="navbar-mobile-trigger" className="navbar-collapse collapse justify-content-between">
+  {/* <nav id="navbar-mobile-trigger" className="navbar-collapse collapse justify-content-between">
     <Menu />
-  </nav>
+  </nav> */}
+  </div>
 </header>
 );
 }

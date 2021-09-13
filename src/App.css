@@ -2,12 +2,12 @@
 :root {
   --color-black: #000;
   --color-white: #FFF;
-  --color-clear: #3A416B;
-  --color-dark: #0E143C;
-  --color-1: #030512;
-  --color-2: #161821;
-  --color-contrast: #050224;
-  --color-hover: #12238F;
+  --color-clear: #9b9b9b;
+  --color-dark: #3b3b3b;
+  --color-1: #340164;
+  --color-2: #55022e;
+  --color-contrast: #ff9100;
+  --color-hover: #ff9100;
   /*  */
   --padding-1: 8px;
   --padding-2: 16px;
@@ -21,6 +21,7 @@
 /* Wireframe */
 * {
   /* outline: 1px solid lime; */
+  box-sizing: border-box;
 }
 /* General */
 body {
@@ -32,10 +33,11 @@ div {
   height: 100%;
 }
 p {
-  color: var(--color-white);
+  color: var(--color-clear);
+  font-weight: 100;
 }
 a {
-  color: var(--color-white);
+  color: var(--color-contrast);
 }
 a:hover {
   color: var(--color-hover);
@@ -43,12 +45,16 @@ a:hover {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-title);
+  color: var(--color-clear);
 }
-
+img {
+  object-fit: cover;
+  height: 100% !important;
+  width: 100%;
+}
 #App {
   /* padding-top: 80px; */
 }
-/* General resets */
 .ha {
   height: auto;
 }

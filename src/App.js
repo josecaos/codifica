@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import {Header} from './Header';
-import {Footer} from './Footer';
-import {HomeContent} from './HomeContent';
-import {Twitter, HashtagFind} from './Twitter';
+import React, {Component } from 'react';
+import {Header } from './Header';
+import {Footer } from './Footer';
+import {HomeContent } from './HomeContent';
+import {Twitter, HashtagFind } from './Twitter';
 import './App.css';
 
 export class App extends Component {
@@ -12,8 +12,8 @@ export class App extends Component {
       <Header />
 
       <HomeContent />
-      <HashtagFind tag="Mexico" />
-      <Twitter />
+      {/* <HashtagFind tag="Mexico" />
+      <Twitter /> */}
 
       <Footer />
       </section>
